@@ -1,0 +1,37 @@
+{
+  "name": "cloudflare-openai-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers项目，用于代理OpenAI API调用",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "echo 'Build completed'",
+    "test": "echo 'No tests specified'",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "openai",
+    "api",
+    "proxy",
+    "serverless"
+  ],
+  "author": "ztangt",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "wrangler": "^3.22.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ztangt/cloudflare-openai-worker.git"
+  },
+  "homepage": "https://github.com/ztangt/cloudflare-openai-worker#readme",
+  "bugs": {
+    "url": "https://github.com/ztangt/cloudflare-openai-worker/issues"
+  }
+}
